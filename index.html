@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 shadow-md fixed w-full top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+      <h1 class="text-xl font-bold text-teal-300">Adityawarman Putra Pramanovara</h1>
+      <div class="space-x-6">
+        <a href="#home" class="hover:text-teal-400">Home</a>
+        <a href="#about" class="hover:text-teal-400">About</a>
+        <a href="#projects" class="hover:text-teal-400">Project</a>
+        <a href="#contact" class="hover:text-teal-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 to-indigo-800 text-teal-200">
+    <img src="https://i.pinimg.com/736x/79/fb/c0/79fbc0c5eda39c54bd7f74bbb773f84c.jpg" alt="Profile Picture" class="rounded-full w-40 h-40 mb-6 shadow-lg" />
+    <h2 class="text-4xl font-bold">Hello, I'm <span class="text-teal-300">Adityawarman Putra Pramanovara</span></h2>
+    <p class="mt-4 text-lg text-gray-300">Student | Game Enthusiast & Computer Science Student</p>
+    <a href="#" class="mt-6 px-6 py-3 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-500">Download CV</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-center mb-8 text-teal-300">About Me</h2>
+    <p class="text-lg leading-relaxed text-gray-300 text-center">
+      I am a student with an interest in technology, especially software engineering.
+      I am currently learning to create a portfolio website to showcase my projects and skills.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-800 py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 text-teal-300">My Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-teal-500">
+          <h3 class="text-xl font-semibold mb-2 text-teal-200">Project 1</h3>
+          <p class="text-gray-300 mb-3">Under construction.</p>
+          <a href="#" class="text-teal-400 hover:underline">View Details →</a>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500">
+          <h3 class="text-xl font-semibold mb-2 text-blue-200">Project 2</h3>
+          <p class="text-gray-300 mb-3">Under construction.</p>
+          <a href="#" class="text-blue-400 hover:underline">View Details →</a>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-700 p-6 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-indigo-500">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-200">Project 3</h3>
+          <p class="text-gray-300 mb-3">Under construction.</p>
+          <a href="#" class="text-indigo-400 hover:underline">View Details →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold text-center mb-8 text-teal-300">Contact</h2>
+    <p class="text-center text-lg mb-6 text-gray-300">Feel free to reach out via email or social media:</p>
+    <div class="flex justify-center space-x-6">
+      <a href="mailto:aditw1967@gmail.com" class="px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-500">Email</a>
+      <a href="https://instagram.com/aditya.nvr" target="_blank" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500">Instagram</a>
+      <a href="https://github.com/AkiraPudo" target="_blank" class="px-6 py-3 bg-indigo-700 text-white rounded-lg hover:bg-indigo-600">GitHub</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200 py-6 text-center">
+    <p>&copy; 2025 Adityawarman Pramanovara. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
